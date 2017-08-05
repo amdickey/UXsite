@@ -1,0 +1,151 @@
+html{
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family: "Montserrat"
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: 100%;
+}
+
+h3 {
+  font-size: 2.78vw;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.39vw;
+  line-height: 150%;
+}
+
+
+.bg {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0px;
+
+}
+
+.logo {
+  background-image: url("adrianmichaeldickey_uxdesigner_logo.png");
+  position: fixed;
+  left: 45px;
+  top: 38px;
+  width: 202px;
+  height: 143px;
+  z-index: 100;
+}
+
+#navbar {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  margin-top: 20;
+  padding-top: 75px;
+  padding-right: 45px;
+  font-size: 26px;
+  font-weight: bold;
+  z-index: 100;
+  font-family: "Montserrat"
+
+}
+
+#linkref {
+  color: rgb(255,255,255);
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  z-index: 20;
+}
+
+.overview-image {
+  position: relative;
+  /*
+  background-image: url("overview-image.jpg");*/
+  background-position: center;
+  background-repeat:no-repeat;
+  width: 100%;
+  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overview-text {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  overflow: scroll;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+
+
+}
+
+.overview-text h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4.86vw;
+  font-family: "Montserrat"
+
+}
+
+.overview-text h3 {
+  color: #ffffff;
+  opacity: .7;
+  font-weight: bold;
+  font-size: 2.78vw;
+  font-family: "Helvetica"
+}
+
+.overview-text p {
+  color: #ffffff;
+  line-height: 150%;
+  font-size: 1.39vw;
+  font-family: "Source Sans Pro"
+}
+
+.Wireframeset {
+  position: relative;
+  background-image: url("Wireframeset.png");
+  background-position: center;
+  background-repeat:no-repeat;
+  width: 700px;
+  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  margin-top: 100px;
+
+}
+
+.Wireframeset-text p {
+  margin: 0px auto;
+
+}
+
+
+@media only screen and (max-width: 730px) {
+
+ h1{
+  font-size: 5vw;
+    }
+
+ h3 {
+  font-size: 1.81vw;
+ }
+
+ #navbar {
+   font-size: 1.81vw;
+ }
+
+ p {
+   font-size: 1.11vw;
+ }
+
+}
