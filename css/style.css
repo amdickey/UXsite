@@ -11,22 +11,25 @@ body {
 }
 
 .intro h1 {
-  font-family: "Montserrat";
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica";
   font-weight: bold;
   color: #2b2b2b;
-  font-size: 13.75vw;
+  font-size: 4.75vw;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 150px;
   margin-bottom: 0;
 }
 
 .intro p {
-  font-family: "Open Sans";
+  font-family: "Helvetica";
   color: #04e8ff;
-  font-size: 1.75vw;
+  font-weight: lighter;
+  font-size: 2.3vw;
   text-align: center;
-  margin-bottom: 140px;
+  margin-top: 30px;
 }
+
+
 
 .firstsectionimage {
   position: relative;
@@ -37,10 +40,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
   margin-bottom: 15px;
 }
+
+/*
 
 .firstsectiontext {
   width: 80%;
@@ -48,30 +53,29 @@ body {
   margin: auto;
   overflow: scroll;
   position: absolute;
-  top: 0; left: 0; bottom: 40px; right: 0;
+  top: 0px; left: 0; bottom: 0; right: 0;
   text-align: center;
+  align-content: center;
+  padding-bottom: 220px;
 
 }
 
-.firstsectiontext h1 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  color: #ffffff;
-  font-size: 4vw;
-}
 
 .firstsectiontext h2 {
-  font-family: "Montserrat";
-  color: #ff9904;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica";
+  color: #ffffff;
   font-size: 3vw;
-  margin-top: -8px;
+  margin-top: 70px;
 }
 
 .firstsectiontext h3 {
-  font-family: "Open Sans";
+  font-family: "Helvetica";
+  font-weight: lighter;
   color: #04e8ff;
-  font-size: 2.8vw;
+  font-size: 2vw;
 }
+
+*/
 
 
 .secondsectionimage {
@@ -83,9 +87,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
-}
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 15px;
+  }
 
 .secondsectiontext {
   width: 80%;
@@ -93,29 +98,26 @@ body {
   margin: auto;
   overflow: scroll;
   position: absolute;
-  top: 0; left: 0; bottom: 40px; right: 0;
+  top: 0px; left: 0; bottom: 0; right: 0;
   text-align: center;
+  align-content: center;
+  padding-bottom: 220px;
 
 }
 
-.secondsectiontext h1 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  color: #ffffff;
-  font-size: 4vw;
-}
 
 .secondsectiontext h2 {
-  font-family: "Montserrat";
-  color: #ff9904;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica";
+  color: #ffffff;
   font-size: 3vw;
-  margin-top: -8px;
+  margin-top: 70px;
 }
 
 .secondsectiontext h3 {
-  font-family: "Open Sans";
+  font-family: "Helvetica";
+  font-weight: lighter;
   color: #04e8ff;
-  font-size: 2.8vw;
+  font-size: 2vw;
 }
 
 
@@ -349,7 +351,7 @@ body {
   text-align: justify;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Open Sans";
+  font-family: "Helvetica";
   margin-bottom: 50px;
   padding-left: 75px;
   padding-right: 75px;
@@ -361,7 +363,7 @@ body h3 {
   text-align: justify;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Montserrat";
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica";
   font-weight: bold;
   margin-bottom: 50px;
   padding-left: 75px;
@@ -373,6 +375,15 @@ body h3 {
   height: auto;
   width: 100%;
   margin-bottom: 0px;
+
+
+}
+
+.headerimage {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0px;
+  box-shadow: 0px 6px 20px #888888;
 
 }
 
@@ -414,7 +425,8 @@ body h3 {
   width: 100%;
   display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+  margin-bottom: 200px;
 }
 
 
@@ -436,28 +448,17 @@ body h3 {
 
 }
 
-
-}
-
 .Wireframeset {
-  position: relative;
-  background-image: url("Wireframeset.png");
-  background-position: center;
-  background-repeat:no-repeat;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
   width: 700px;
-  display: table;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin:0 auto;
-  margin-top: 100px;
+  margin-bottom: 50px;
+
+
 
 }
 
-.Wireframeset-text p {
-  margin: 0px auto;
-
-}
 
 
 @media only screen and (max-width: 730px) {
