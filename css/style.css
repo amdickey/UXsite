@@ -1,249 +1,17 @@
-html{
-  padding: 0;
-  height: 100%;
-}
-body {
-  font-family: "Montserrat"
+body, html {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 1.3vw;
+  line-height: 1.8em;
+  color: #666;
   padding: 0;
   margin: 0;
   border: 0;
   height: 100%;
-}
-
-.intro h1 {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica";
-  font-weight: bold;
-  color: #2b2b2b;
-  font-size: 4.75vw;
   text-align: center;
-  margin-top: 150px;
-  margin-bottom: 0;
 }
 
-.intro p {
-  font-family: "Helvetica";
-  color: #04e8ff;
-  font-weight: lighter;
-  font-size: 2.3vw;
-  text-align: center;
-  margin-top: 30px;
-}
-
-
-
-.firstsectionimage {
-  position: relative;
-  background-position: center;
-  background-repeat:no-repeat;
-  width: 100%;
-  display: table;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 35px;
-  padding-right: 35px;
-  margin-bottom: 15px;
-}
-
-/*
-
-.firstsectiontext {
-  width: 80%;
-  height: 65%;
-  margin: auto;
-  overflow: scroll;
-  position: absolute;
-  top: 0px; left: 0; bottom: 0; right: 0;
-  text-align: center;
-  align-content: center;
-  padding-bottom: 220px;
-
-}
-
-
-.firstsectiontext h2 {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica";
-  color: #ffffff;
-  font-size: 3vw;
-  margin-top: 70px;
-}
-
-.firstsectiontext h3 {
-  font-family: "Helvetica";
-  font-weight: lighter;
-  color: #04e8ff;
-  font-size: 2vw;
-}
-
-*/
-
-
-.secondsectionimage {
-  position: relative;
-  background-position: center;
-  background-repeat:no-repeat;
-  width: 100%;
-  display: table;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 35px;
-  padding-right: 35px;
-  margin-bottom: 15px;
-  }
-
-
-
-
-.thirdsectionimage {
-  position: relative;
-  background-position: center;
-  background-repeat:no-repeat;
-  width: 100%;
-  display: table;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-bottom: 15px;
-}
-
-img.competition {
-  position: relative;
-	max-width: 80%;
-	top: 10%;
-	left: 10%;
-  width: 1100px;
-  margin-bottom: 0px;
-}
-
-img.competition:empty {
-top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-
-
-.fourthsectionimage {
-  position: relative;
-  background-position: center;
-  background-repeat:no-repeat;
-  width: 100%;
-  display: table;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-bottom: 15px;
-}
-
-
-
-.fifthsectionimage {
-  position: relative;
-  background-position: center;
-  background-repeat:no-repeat;
-  width: 100%;
-  display: table;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-
-
-.sixthsectionimage {
-  position: relative;
-  background-position: center;
-  background-repeat:no-repeat;
-  width: 100%;
-  display: table;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-
-
-.seventhsectionimage {
-  position: relative;
-  background-position: center;
-  background-repeat:no-repeat;
-  width: 100%;
-  display: table;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-
- body p {
-  font-size:1.68vw;
-  color:#2b2b2b;
-  text-align: justify;
-  -moz-text-align-last: center;
-  text-align-last: center;
-  font-family: "Helvetica";
-  margin-bottom: 25px;
-  padding-left: 75px;
-  padding-right: 75px;
-}
-
-body h3 {
-  font-size: 2.78vw;
-  color:#2b2b2b;
-  text-align: justify;
-  -moz-text-align-last: center;
-  text-align-last: center;
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica";
-  font-weight: bold;
-  margin-bottom: 25px;
-  padding-left: 75px;
-  padding-right: 75px;
-}
-
-
-.bg {
-  height: auto;
-  width: 100%;
-  margin-bottom: 0px;
-
-
-
-}
-
-.headerimage {
-  height: auto;
-  width: 100%;
-  margin-bottom: 0px;
-  box-shadow: 0px 6px 20px #888888;
-
-}
-
-.logo {
-  background-image: url("adrianmichaeldickey_uxdesigner_logo.png");
-  position: fixed;
-  display: block;
-  left: 45px;
-  top: 30px;
-  width: 185px;
-  z-index: 100;
-}
-
-
-#navbar {
+#mynavbar {
   width: 100%;
   height: 180px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -252,10 +20,19 @@ body h3 {
   padding-top: 75px;
   padding-right: 45px;
   font-size: 26px;
-  font-weight: bold;
-  z-index: 100;
-  font-family: "Montserrat"
+  z-index: 10;
+  font-family: "Raleway";
+  font-weight: 800;
+  letter-spacing: 2px;
+}
 
+.mylogo{
+  position: fixed;
+  display: block;
+  left: 45px;
+  top: 30px;
+  width: 185px;
+  z-index: 20;
 }
 
 #linkref {
@@ -263,7 +40,7 @@ body h3 {
   text-decoration: none;
   padding: 15px;
   text-align: center;
-  z-index: 20;
+  z-index: 15;
 }
 
 #work {
@@ -272,59 +49,126 @@ body h3 {
   display: block;
     margin-left: auto;
     margin-right: auto;
-  margin-bottom: 200px;
 }
 
-
-
-
-.newlogo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 700px;
-  margin-top: 200px;
+.welcomebackground {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0px;
+  margin: 0 auto;
+  box-shadow: 0px 6px 20px #888888;
 }
 
+.titleimage{
+  height: auto;
+  width: 100%;
+}
 
-.png-over1 {
-  width: 275px;
-  max-width: 25%;
-  margin:0 auto;
+.intro h1 {
+  font-family: "Raleway";
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #2b2b2b;
+  font-size: 3.5vw;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.intro p {
+  font-family: "Raleway";
+  color: #9e9e9e;
+  font-weight:300;
+  font-size: 2.3vw;
+  text-align: center;
+}
+
+.Part1, .Part2, .Part3, .Part4, .Part5, .Part6, .Part7 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 
+.Part1 {
+  background-image:url("../images/Part1-IMG.jpg");
+  min-height: 400px;
+}
+
+.Part2 {
+  background-image:url("../images/Part2-IMG.jpg");
+  min-height: 400px;
+}
 
 img.wireframes {
   position: relative;
 	max-width: 60%;
-	top: 10%;
-	left: 10%;
   width: 650px;
+  margin:0 auto;
+  margin-bottom: 30px;
 }
 
-img.wireframes:empty {
-top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+.Part3 {
+  background-image:url("../images/Part3-IMG.jpg");
+  min-height: 400px;
 }
 
-
-
-.journey {
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-  margin-bottom: 50px;
-
-
-
+img.competition {
+  position: relative;
+	max-width: 80%;
+	margin:0 auto;
+  margin-top: 30px;
 }
 
+.Part4 {
+  background-image:url("../images/Part4-IMG.jpg");
+  min-height: 400px;
+}
+
+.Part5 {
+  background-image:url("../images/Part5-IMG.jpg");
+  min-height: 400px;
+}
+
+.Part6 {
+  background-image:url("../images/Part6-IMG.jpg");
+  min-height: 400px;
+}
+
+.Part7 {
+  background-image:url("../images/Part7-IMG.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding:50px 80px;
+  color:#666
+}
+
+.section h3 {
+  font-size: 2vw;
+  color: #2b2b2b;
+}
+
+.ptext h2 {
+  position: absolute;
+  top:40%;
+  width:100%;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 3vw;
+  letter-spacing: 5px;
+}
+
+@media(max-width:568px) {
+  .Part1, .Part2, .Part3, .Part4, .Part5, .Part6, .Part7 {
+    background-attachment: scroll;
+  }
+}
 
 @media only screen and (max-width: 730px) {
 
@@ -336,7 +180,7 @@ top: 50%;
   font-size: 1.6vw;
  }
 
- #navbar {
+ #mynavbar {
    font-size: 1.81vw;
  }
 
@@ -344,7 +188,10 @@ top: 50%;
    font-size: 1.11vw;
  }
 
- img.wireframes { max-width: 90%;
+ .mylogo {
+   max-width: 20%;
  }
 
+ img.wireframes { max-width: 90%;
+ }
 }
