@@ -221,6 +221,7 @@ body h3 {
   margin-bottom: 0px;
 
 
+
 }
 
 .headerimage {
@@ -234,16 +235,17 @@ body h3 {
 .logo {
   background-image: url("adrianmichaeldickey_uxdesigner_logo.png");
   position: fixed;
+  display: block;
   left: 45px;
-  top: 38px;
-  width: 202px;
-  height: 143px;
+  top: 30px;
+  width: 185px;
   z-index: 100;
 }
 
+
 #navbar {
   width: 100%;
-  height: 200px;
+  height: 180px;
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
   margin-top: 20;
