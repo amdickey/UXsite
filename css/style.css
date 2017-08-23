@@ -17,20 +17,21 @@ body, html {
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
   margin-top: 20;
-  padding-top: 75px;
-  padding-right: 45px;
+  padding-top: 45px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   font-size: 26px;
   z-index: 10;
   font-family: "Raleway";
   font-weight: 800;
   letter-spacing: 2px;
+  text-align: right;
 }
 
 .mylogo{
-  position: fixed;
-  display: block;
-  left: 45px;
-  top: 30px;
+  position:fixed;
+  left: 30px;
+  top: 15px;
   width: 200px;
   z-index: 20;
 }
@@ -188,6 +189,10 @@ img.journeymap {
 @media(max-width:568px) {
   .Part1, .Part2, .Part3, .Part4, .Part5, .Part6, .Part7 {
     background-attachment: scroll;
+  }
+
+  #mynavbar {
+    max-height: 75px;
   }
 }
 
