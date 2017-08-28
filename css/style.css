@@ -1,7 +1,7 @@
 body, html {
   font-family: "Raleway";
   font-weight: 300;
-  font-size: 1.75vw;
+  font-size: 1.25vw;
   line-height: 1.7em;
   color: #666;
   padding: 0;
@@ -226,14 +226,15 @@ img.profile {
 
 .section h3 {
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 2vw;
+  font-weight: 600;
   color: #2b2b2b;
 }
 
 .section h4 {
   font-family: "Raleway";
   font-weight: 500;
-  font-size: 2vw;
+  font-size: 1.75vw;
   color: #666;
   text-align: left;
 }
