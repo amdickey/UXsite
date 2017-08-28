@@ -11,17 +11,11 @@ body, html {
   text-align: center;
 }
 
-.section h4 {
-  font-family: "Raleway";
-  font-weight: 500;
-  font-size: 1.3vw;
-  color: #666;
-  text-align: left;
-}
+
 #mynavbar {
   width: 100%;
-  height: 180px;
-  background-color: rgba(0, 0, 0, 0.3);
+  height: 170px;
+  background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
   margin-top: 20;
   padding-top: 45px;
@@ -64,7 +58,7 @@ body, html {
   width: 100%;
   margin-bottom: 0px;
   margin: 0 auto;
-  box-shadow: 0px 15px 40px #000000;
+  box-shadow: 0px 15px 50px #000000;
   position: relative;
 }
 
@@ -92,7 +86,7 @@ body, html {
   text-align: center;
 }
 
-.Part1, .Part2, .Part3, .Part4, .Part5, .Part6, .Part7 {
+.Part1, .Part2, .Part3, .Part4, .Part5, .Part6, .Part7, .Part8 {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -165,9 +159,62 @@ img.journeymap {
   min-height: 400px;
 }
 
+img.hikarlcurrent {
+  position: relative;
+	max-width: 80%;
+	margin:0 auto;
+}
+
+img.newhikarl {
+  position: relative;
+	max-width: 80%;
+	margin:0 auto;
+}
+
 .Part7 {
   background-image:url("../images/Part7-IMG.jpg");
   min-height: 400px;
+}
+
+img.prototypeimages {
+  position: relative;
+	max-width: 80%;
+	margin:0 auto;
+}
+
+img.merchandise {
+  position: relative;
+	max-width: 80%;
+	margin:0 auto;
+  padding-bottom: 20px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+
+.Part8 {
+  background-image:url("../images/contact.jpg");
+  min-height: 400px;
+}
+
+img.profile {
+  position: relative;
+	max-width: 60%;
+  width: 200px;
+  margin:0 auto;
+  padding-top: 50px;
 }
 
 .section {
@@ -180,6 +227,14 @@ img.journeymap {
   text-align: center;
   font-size: 2vw;
   color: #2b2b2b;
+}
+
+.section h4 {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: #666;
+  text-align: left;
 }
 
 .ptext h2 {
@@ -195,7 +250,7 @@ img.journeymap {
 }
 
 @media(max-width:568px) {
-  .Part1, .Part2, .Part3, .Part4, .Part5, .Part6, .Part7 {
+  .Part1, .Part2, .Part3, .Part4, .Part5, .Part6, .Part7, .Part8{
     background-attachment: scroll;
   }
 
