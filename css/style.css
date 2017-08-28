@@ -14,7 +14,7 @@ body, html {
 #mynavbar {
   width: 100%;
   height: 150px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.15);
   position: fixed;
   margin-top: 20;
   padding-top: 25px;
