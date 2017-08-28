@@ -1,8 +1,8 @@
 body, html {
   font-family: "Raleway";
   font-weight: 300;
-  font-size: 1.3vw;
-  line-height: 1.8em;
+  font-size: 1.75vw;
+  line-height: 1.7em;
   color: #666;
   padding: 0;
   margin: 0;
@@ -10,6 +10,7 @@ body, html {
   height: 100%;
   text-align: center;
 }
+
 
 
 #mynavbar {
@@ -225,14 +226,14 @@ img.profile {
 
 .section h3 {
   text-align: center;
-  font-size: 2vw;
+  font-size: 2.5vw;
   color: #2b2b2b;
 }
 
 .section h4 {
   font-family: "Raleway";
   font-weight: 500;
-  font-size: 1.3vw;
+  font-size: 2vw;
   color: #666;
   text-align: left;
 }
@@ -259,6 +260,7 @@ img.profile {
   }
 }
 
+
 @media only screen and (max-width: 730px) {
 
  h1{
@@ -266,15 +268,19 @@ img.profile {
     }
 
  h3 {
-  font-size: 1.6vw;
+  font-size: 4vw;
  }
 
  #mynavbar {
    font-size: 1.81vw;
  }
 
+ h4 {
+   font-size: 3vw;
+ }
  p {
-   font-size: 1.11vw;
+   font-size: 2.5vw;
+   line-height: 1.5em;
  }
 
  .mylogo {
