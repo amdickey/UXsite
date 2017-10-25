@@ -17,11 +17,11 @@ body, html {
   background-color: rgba(0, 0, 0, 0.15);
   position: fixed;
   margin-top: 20;
-  padding-top: 25px;
+  padding-top: 28px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  font-size: 26px;
+  font-size: 22px;
   z-index: 10;
   font-family: "Raleway";
   font-weight: 700;
@@ -277,7 +277,7 @@ img.profile {
  }
 
  #mynavbar {
-   font-size: 1.81vw;
+   font-size: 1.3vw;
    max-height: 95px;
  }
 
